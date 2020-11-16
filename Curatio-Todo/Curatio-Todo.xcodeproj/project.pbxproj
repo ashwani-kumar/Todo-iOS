@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007E6E1E255BDDA00004F8D2 /* TodoTask+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E1A255BDDA00004F8D2 /* TodoTask+CoreDataClass.swift */; };
+		007E6E1F255BDDA00004F8D2 /* TodoTask+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E1B255BDDA00004F8D2 /* TodoTask+CoreDataProperties.swift */; };
+		007E6E20255BDDA00004F8D2 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E1C255BDDA00004F8D2 /* Folder+CoreDataClass.swift */; };
+		007E6E21255BDDA00004F8D2 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E1D255BDDA00004F8D2 /* Folder+CoreDataProperties.swift */; };
+		007E6E29255BE5680004F8D2 /* TodoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E28255BE5680004F8D2 /* TodoCellViewModel.swift */; };
+		007E6E2E255BF33E0004F8D2 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E2D255BF33E0004F8D2 /* TodoListViewModel.swift */; };
+		007E6E3C255BFF520004F8D2 /* TodoFolderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E3B255BFF520004F8D2 /* TodoFolderViewModel.swift */; };
+		007E6E41255C05E40004F8D2 /* FolderCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E40255C05E40004F8D2 /* FolderCellViewModel.swift */; };
+		007E6E46255C1B0A0004F8D2 /* Curatio_TodoItemTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007E6E45255C1B0A0004F8D2 /* Curatio_TodoItemTest.swift */; };
+		00B65E3D255BD07B0012F6AB /* Curatio_TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E3C255BD07B0012F6AB /* Curatio_TodoApp.swift */; };
+		00B65E3F255BD07B0012F6AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E3E255BD07B0012F6AB /* ContentView.swift */; };
+		00B65E41255BD07D0012F6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B65E40255BD07D0012F6AB /* Assets.xcassets */; };
+		00B65E44255BD07D0012F6AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B65E43255BD07D0012F6AB /* Preview Assets.xcassets */; };
+		00B65E46255BD07D0012F6AB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E45255BD07D0012F6AB /* Persistence.swift */; };
+		00B65E49255BD07D0012F6AB /* Curatio_Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E47255BD07D0012F6AB /* Curatio_Todo.xcdatamodeld */; };
+		00B65E54255BD07D0012F6AB /* Curatio_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E53255BD07D0012F6AB /* Curatio_TodoTests.swift */; };
+		00B65E5F255BD07D0012F6AB /* Curatio_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E5E255BD07D0012F6AB /* Curatio_TodoUITests.swift */; };
+		00B65E70255BD1540012F6AB /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E6F255BD1540012F6AB /* TodoListView.swift */; };
+		00B65E78255BD1B80012F6AB /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B65E77255BD1B80012F6AB /* Todo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00B65E50255BD07D0012F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B65E31255BD07B0012F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B65E38255BD07B0012F6AB;
+			remoteInfo = "Curatio-Todo";
+		};
+		00B65E5B255BD07D0012F6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B65E31255BD07B0012F6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B65E38255BD07B0012F6AB;
+			remoteInfo = "Curatio-Todo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007E6E1A255BDDA00004F8D2 /* TodoTask+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoTask+CoreDataClass.swift"; sourceTree = "<group>"; };
+		007E6E1B255BDDA00004F8D2 /* TodoTask+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoTask+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		007E6E1C255BDDA00004F8D2 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		007E6E1D255BDDA00004F8D2 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		007E6E28255BE5680004F8D2 /* TodoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCellViewModel.swift; sourceTree = "<group>"; };
+		007E6E2D255BF33E0004F8D2 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		007E6E3B255BFF520004F8D2 /* TodoFolderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFolderViewModel.swift; sourceTree = "<group>"; };
+		007E6E40255C05E40004F8D2 /* FolderCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCellViewModel.swift; sourceTree = "<group>"; };
+		007E6E45255C1B0A0004F8D2 /* Curatio_TodoItemTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curatio_TodoItemTest.swift; sourceTree = "<group>"; };
+		00B65E39255BD07B0012F6AB /* Curatio-Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curatio-Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B65E3C255BD07B0012F6AB /* Curatio_TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curatio_TodoApp.swift; sourceTree = "<group>"; };
+		00B65E3E255BD07B0012F6AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00B65E40255BD07D0012F6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00B65E43255BD07D0012F6AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00B65E45255BD07D0012F6AB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		00B65E48255BD07D0012F6AB /* Curatio_Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Curatio_Todo.xcdatamodel; sourceTree = "<group>"; };
+		00B65E4A255BD07D0012F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B65E4F255BD07D0012F6AB /* Curatio-TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curatio-TodoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B65E53255BD07D0012F6AB /* Curatio_TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curatio_TodoTests.swift; sourceTree = "<group>"; };
+		00B65E55255BD07D0012F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B65E5A255BD07D0012F6AB /* Curatio-TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Curatio-TodoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B65E5E255BD07D0012F6AB /* Curatio_TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curatio_TodoUITests.swift; sourceTree = "<group>"; };
+		00B65E60255BD07D0012F6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00B65E6F255BD1540012F6AB /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		00B65E77255BD1B80012F6AB /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B65E36255BD07B0012F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B65E4C255BD07D0012F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B65E57255BD07D0012F6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B65E30255BD07B0012F6AB = {
+			isa = PBXGroup;
+			children = (
+				00B65E3B255BD07B0012F6AB /* Curatio-Todo */,
+				00B65E52255BD07D0012F6AB /* Curatio-TodoTests */,
+				00B65E5D255BD07D0012F6AB /* Curatio-TodoUITests */,
+				00B65E3A255BD07B0012F6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00B65E3A255BD07B0012F6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B65E39255BD07B0012F6AB /* Curatio-Todo.app */,
+				00B65E4F255BD07D0012F6AB /* Curatio-TodoTests.xctest */,
+				00B65E5A255BD07D0012F6AB /* Curatio-TodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B65E3B255BD07B0012F6AB /* Curatio-Todo */ = {
+			isa = PBXGroup;
+			children = (
+				007E6E1A255BDDA00004F8D2 /* TodoTask+CoreDataClass.swift */,
+				007E6E1B255BDDA00004F8D2 /* TodoTask+CoreDataProperties.swift */,
+				007E6E1C255BDDA00004F8D2 /* Folder+CoreDataClass.swift */,
+				007E6E1D255BDDA00004F8D2 /* Folder+CoreDataProperties.swift */,
+				00B65E3C255BD07B0012F6AB /* Curatio_TodoApp.swift */,
+				00B65E3E255BD07B0012F6AB /* ContentView.swift */,
+				00B65E40255BD07D0012F6AB /* Assets.xcassets */,
+				00B65E45255BD07D0012F6AB /* Persistence.swift */,
+				00B65E4A255BD07D0012F6AB /* Info.plist */,
+				00B65E47255BD07D0012F6AB /* Curatio_Todo.xcdatamodeld */,
+				00B65E42255BD07D0012F6AB /* Preview Content */,
+				00B65E6F255BD1540012F6AB /* TodoListView.swift */,
+				00B65E77255BD1B80012F6AB /* Todo.swift */,
+				007E6E28255BE5680004F8D2 /* TodoCellViewModel.swift */,
+				007E6E2D255BF33E0004F8D2 /* TodoListViewModel.swift */,
+				007E6E3B255BFF520004F8D2 /* TodoFolderViewModel.swift */,
+				007E6E40255C05E40004F8D2 /* FolderCellViewModel.swift */,
+			);
+			path = "Curatio-Todo";
+			sourceTree = "<group>";
+		};
+		00B65E42255BD07D0012F6AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00B65E43255BD07D0012F6AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00B65E52255BD07D0012F6AB /* Curatio-TodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				00B65E53255BD07D0012F6AB /* Curatio_TodoTests.swift */,
+				007E6E45255C1B0A0004F8D2 /* Curatio_TodoItemTest.swift */,
+				00B65E55255BD07D0012F6AB /* Info.plist */,
+			);
+			path = "Curatio-TodoTests";
+			sourceTree = "<group>";
+		};
+		00B65E5D255BD07D0012F6AB /* Curatio-TodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00B65E5E255BD07D0012F6AB /* Curatio_TodoUITests.swift */,
+				00B65E60255BD07D0012F6AB /* Info.plist */,
+			);
+			path = "Curatio-TodoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B65E38255BD07B0012F6AB /* Curatio-Todo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B65E63255BD07D0012F6AB /* Build configuration list for PBXNativeTarget "Curatio-Todo" */;
+			buildPhases = (
+				00B65E35255BD07B0012F6AB /* Sources */,
+				00B65E36255BD07B0012F6AB /* Frameworks */,
+				00B65E37255BD07B0012F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curatio-Todo";
+			productName = "Curatio-Todo";
+			productReference = 00B65E39255BD07B0012F6AB /* Curatio-Todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00B65E4E255BD07D0012F6AB /* Curatio-TodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B65E66255BD07D0012F6AB /* Build configuration list for PBXNativeTarget "Curatio-TodoTests" */;
+			buildPhases = (
+				00B65E4B255BD07D0012F6AB /* Sources */,
+				00B65E4C255BD07D0012F6AB /* Frameworks */,
+				00B65E4D255BD07D0012F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B65E51255BD07D0012F6AB /* PBXTargetDependency */,
+			);
+			name = "Curatio-TodoTests";
+			productName = "Curatio-TodoTests";
+			productReference = 00B65E4F255BD07D0012F6AB /* Curatio-TodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00B65E59255BD07D0012F6AB /* Curatio-TodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B65E69255BD07D0012F6AB /* Build configuration list for PBXNativeTarget "Curatio-TodoUITests" */;
+			buildPhases = (
+				00B65E56255BD07D0012F6AB /* Sources */,
+				00B65E57255BD07D0012F6AB /* Frameworks */,
+				00B65E58255BD07D0012F6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B65E5C255BD07D0012F6AB /* PBXTargetDependency */,
+			);
+			name = "Curatio-TodoUITests";
+			productName = "Curatio-TodoUITests";
+			productReference = 00B65E5A255BD07D0012F6AB /* Curatio-TodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B65E31255BD07B0012F6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00B65E38255BD07B0012F6AB = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					00B65E4E255BD07D0012F6AB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 00B65E38255BD07B0012F6AB;
+					};
+					00B65E59255BD07D0012F6AB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 00B65E38255BD07B0012F6AB;
+					};
+				};
+			};
+			buildConfigurationList = 00B65E34255BD07B0012F6AB /* Build configuration list for PBXProject "Curatio-Todo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B65E30255BD07B0012F6AB;
+			productRefGroup = 00B65E3A255BD07B0012F6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B65E38255BD07B0012F6AB /* Curatio-Todo */,
+				00B65E4E255BD07D0012F6AB /* Curatio-TodoTests */,
+				00B65E59255BD07D0012F6AB /* Curatio-TodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B65E37255BD07B0012F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B65E44255BD07D0012F6AB /* Preview Assets.xcassets in Resources */,
+				00B65E41255BD07D0012F6AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B65E4D255BD07D0012F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B65E58255BD07D0012F6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B65E35255BD07B0012F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007E6E1F255BDDA00004F8D2 /* TodoTask+CoreDataProperties.swift in Sources */,
+				007E6E2E255BF33E0004F8D2 /* TodoListViewModel.swift in Sources */,
+				00B65E70255BD1540012F6AB /* TodoListView.swift in Sources */,
+				007E6E20255BDDA00004F8D2 /* Folder+CoreDataClass.swift in Sources */,
+				007E6E29255BE5680004F8D2 /* TodoCellViewModel.swift in Sources */,
+				007E6E21255BDDA00004F8D2 /* Folder+CoreDataProperties.swift in Sources */,
+				007E6E1E255BDDA00004F8D2 /* TodoTask+CoreDataClass.swift in Sources */,
+				00B65E78255BD1B80012F6AB /* Todo.swift in Sources */,
+				00B65E46255BD07D0012F6AB /* Persistence.swift in Sources */,
+				00B65E49255BD07D0012F6AB /* Curatio_Todo.xcdatamodeld in Sources */,
+				00B65E3F255BD07B0012F6AB /* ContentView.swift in Sources */,
+				00B65E3D255BD07B0012F6AB /* Curatio_TodoApp.swift in Sources */,
+				007E6E41255C05E40004F8D2 /* FolderCellViewModel.swift in Sources */,
+				007E6E3C255BFF520004F8D2 /* TodoFolderViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B65E4B255BD07D0012F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007E6E46255C1B0A0004F8D2 /* Curatio_TodoItemTest.swift in Sources */,
+				00B65E54255BD07D0012F6AB /* Curatio_TodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B65E56255BD07D0012F6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B65E5F255BD07D0012F6AB /* Curatio_TodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B65E51255BD07D0012F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B65E38255BD07B0012F6AB /* Curatio-Todo */;
+			targetProxy = 00B65E50255BD07D0012F6AB /* PBXContainerItemProxy */;
+		};
+		00B65E5C255BD07D0012F6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B65E38255BD07B0012F6AB /* Curatio-Todo */;
+			targetProxy = 00B65E5B255BD07D0012F6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B65E61255BD07D0012F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00B65E62255BD07D0012F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B65E64255BD07D0012F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Curatio-Todo/Preview Content\"";
+				DEVELOPMENT_TEAM = 86R42B8XFR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Curatio-Todo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.curatio.app.Curatio-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B65E65255BD07D0012F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Curatio-Todo/Preview Content\"";
+				DEVELOPMENT_TEAM = 86R42B8XFR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Curatio-Todo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.curatio.app.Curatio-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00B65E67255BD07D0012F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R42B8XFR;
+				INFOPLIST_FILE = "Curatio-TodoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.curatio.app.Curatio-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Curatio-Todo.app/Curatio-Todo";
+			};
+			name = Debug;
+		};
+		00B65E68255BD07D0012F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R42B8XFR;
+				INFOPLIST_FILE = "Curatio-TodoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.curatio.app.Curatio-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Curatio-Todo.app/Curatio-Todo";
+			};
+			name = Release;
+		};
+		00B65E6A255BD07D0012F6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R42B8XFR;
+				INFOPLIST_FILE = "Curatio-TodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.curatio.app.Curatio-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Curatio-Todo";
+			};
+			name = Debug;
+		};
+		00B65E6B255BD07D0012F6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 86R42B8XFR;
+				INFOPLIST_FILE = "Curatio-TodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.curatio.app.Curatio-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Curatio-Todo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B65E34255BD07B0012F6AB /* Build configuration list for PBXProject "Curatio-Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B65E61255BD07D0012F6AB /* Debug */,
+				00B65E62255BD07D0012F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B65E63255BD07D0012F6AB /* Build configuration list for PBXNativeTarget "Curatio-Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B65E64255BD07D0012F6AB /* Debug */,
+				00B65E65255BD07D0012F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B65E66255BD07D0012F6AB /* Build configuration list for PBXNativeTarget "Curatio-TodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B65E67255BD07D0012F6AB /* Debug */,
+				00B65E68255BD07D0012F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B65E69255BD07D0012F6AB /* Build configuration list for PBXNativeTarget "Curatio-TodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B65E6A255BD07D0012F6AB /* Debug */,
+				00B65E6B255BD07D0012F6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00B65E47255BD07D0012F6AB /* Curatio_Todo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00B65E48255BD07D0012F6AB /* Curatio_Todo.xcdatamodel */,
+			);
+			currentVersion = 00B65E48255BD07D0012F6AB /* Curatio_Todo.xcdatamodel */;
+			path = Curatio_Todo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00B65E31255BD07B0012F6AB /* Project object */;
+}
